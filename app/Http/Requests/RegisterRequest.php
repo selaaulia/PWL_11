@@ -2,7 +2,8 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
+use App\Models\Users;
+use Illuminate\Support\Facades\Hash;
 
 class RegisterRequest extends ApiRequest
 {
